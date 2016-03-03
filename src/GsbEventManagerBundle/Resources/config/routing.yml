@@ -1,0 +1,8 @@
+gsb_event_manager_homepage:
+    path:     /accueil
+    defaults: { _controller: GsbEventManagerBundle:Default:index }
+
+gsb_event_manager_mailsend:
+    path:     /sendmail
+    defaults: { _controller: GsbEventManagerBundle:Default:sendmail }
+
