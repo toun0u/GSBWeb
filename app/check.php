@@ -6,7 +6,11 @@ $lineSize = 70;
 $symfonyRequirements = new SymfonyRequirements();
 $iniPath = $symfonyRequirements->getPhpIniConfigPath();
 
+<<<<<<< HEAD
 echo_title('Symfony2 Requirements Checker');
+=======
+echo_title('Symfony Requirements Checker');
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
 
 echo '> PHP is using the following php.ini file:'.PHP_EOL;
 if ($iniPath) {
@@ -42,9 +46,15 @@ foreach ($symfonyRequirements->getRecommendations() as $req) {
 }
 
 if ($checkPassed) {
+<<<<<<< HEAD
     echo_block('success', 'OK', 'Your system is ready to run Symfony2 projects');
 } else {
     echo_block('error', 'ERROR', 'Your system is not ready to run Symfony2 projects');
+=======
+    echo_block('success', 'OK', 'Your system is ready to run Symfony projects');
+} else {
+    echo_block('error', 'ERROR', 'Your system is not ready to run Symfony projects');
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
 
     echo_title('Fix the following mandatory requirements', 'red');
 

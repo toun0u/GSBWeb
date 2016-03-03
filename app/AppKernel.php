@@ -16,7 +16,11 @@ class AppKernel extends Kernel
             new Doctrine\Bundle\DoctrineBundle\DoctrineBundle(),
             new Sensio\Bundle\FrameworkExtraBundle\SensioFrameworkExtraBundle(),
             new AppBundle\AppBundle(),
+<<<<<<< HEAD
             new GsbEventManagerBundle\GsbEventManagerBundle(),
+=======
+            new Sio\GsbBundle\SioGsbBundle(),
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'), true)) {

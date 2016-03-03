@@ -3,9 +3,15 @@ imports:
 
 #framework:
 #    validation:
+<<<<<<< HEAD
 #        cache: validator.mapping.cache.apc
 #    serializer:
 #        cache: serializer.mapping.cache.apc
+=======
+#        cache: validator.mapping.cache.doctrine.apc
+#    serializer:
+#        cache: serializer.mapping.cache.doctrine.apc
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
 
 #doctrine:
 #    orm:

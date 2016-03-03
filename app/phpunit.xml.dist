@@ -9,6 +9,12 @@
 >
     <php>
         <ini name="error_reporting" value="-1" />
+<<<<<<< HEAD
+=======
+        <!--
+            <server name="KERNEL_DIR" value="/path/to/your/app/" />
+        -->
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
     </php>
 
     <testsuites>
@@ -19,12 +25,15 @@
         </testsuite>
     </testsuites>
 
+<<<<<<< HEAD
     <!--
     <php>
         <server name="KERNEL_DIR" value="/path/to/your/app/" />
     </php>
     -->
 
+=======
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
     <filter>
         <whitelist>
             <directory>../src</directory>

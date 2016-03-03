@@ -14,6 +14,7 @@ web_profiler:
 monolog:
     handlers:
         main:
+<<<<<<< HEAD
             type:   stream
             path:   "%kernel.logs_dir%/%kernel.environment%.log"
             level:  debug
@@ -32,6 +33,15 @@ monolog:
                 VERBOSITY_VERY_VERBOSE: NOTICE
                 VERBOSITY_DEBUG: DEBUG
             channels: ["doctrine"]
+=======
+            type: stream
+            path: "%kernel.logs_dir%/%kernel.environment%.log"
+            level: debug
+            channels: [!event]
+        console:
+            type:   console
+            channels: [!event, !doctrine]
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
         # uncomment to get logging in your browser
         # you may have to allow bigger header sizes in your Web server configuration
         #firephp:

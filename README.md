@@ -1,7 +1,11 @@
 Symfony Standard Edition
 ========================
 
+<<<<<<< HEAD
 Welcome to the Symfony Standard Edition - a fully-functional Symfony2
+=======
+Welcome to the Symfony Standard Edition - a fully-functional Symfony
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
 application that you can use as the skeleton for your new applications.
 
 For details on how to download and get started with Symfony, see the

@@ -1,5 +1,10 @@
+<<<<<<< HEAD
 gsb_event_manager:
     resource: "@GsbEventManagerBundle/Resources/config/routing.yml"
+=======
+sio_gsb:
+    resource: "@SioGsbBundle/Resources/config/routing.yml"
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
     prefix:   /
 
 app:

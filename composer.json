@@ -5,7 +5,11 @@
     "description": "The \"Symfony Standard Edition\" distribution",
     "autoload": {
         "psr-4": { "": "src/" },
+<<<<<<< HEAD
         "files": [ "app/AppKernel.php" ]
+=======
+        "classmap": [ "app/AppKernel.php", "app/AppCache.php" ]
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
     },
     "require": {
         "php": ">=5.3.9",
@@ -41,7 +45,14 @@
         ]
     },
     "config": {
+<<<<<<< HEAD
         "bin-dir": "bin"
+=======
+        "bin-dir": "bin",
+        "platform": {
+            "php": "5.3.9"
+        }
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
     },
     "extra": {
         "symfony-app-dir": "app",

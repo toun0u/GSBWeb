@@ -2,3 +2,7 @@
 # www.google.com/support/webmasters/bin/answer.py?hl=en&answer=156449
 
 User-agent: *
+<<<<<<< HEAD
+=======
+Disallow:
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2

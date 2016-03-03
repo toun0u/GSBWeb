@@ -9,7 +9,11 @@ if command -v 'cygpath' >/dev/null 2>&1; then
 	# we could be using cygwin PHP which does not require this, so we
 	# test if the path to PHP starts with /cygdrive/ rather than /usr/bin
 	if [[ $(which php) == /cygdrive/* ]]; then
+<<<<<<< HEAD
 		dir=$(cygpath -m "$dir");
+=======
+		dir=$(cygpath -m $dir);
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
 	fi
 fi
 

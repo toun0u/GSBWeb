@@ -2,7 +2,10 @@ imports:
     - { resource: parameters.yml }
     - { resource: security.yml }
     - { resource: services.yml }
+<<<<<<< HEAD
     - { resource: "@GsbEventManagerBundle/Resources/config/services.yml" }
+=======
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
 
 # Put parameters here that don't need to change on each machine where the app is deployed
 # http://symfony.com/doc/current/best_practices/configuration.html#application-related-configuration
@@ -22,7 +25,10 @@ framework:
     #serializer:      { enable_annotations: true }
     templating:
         engines: ['twig']
+<<<<<<< HEAD
         #assets_version: SomeVersionScheme
+=======
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
     default_locale:  "%locale%"
     trusted_hosts:   ~
     trusted_proxies: ~
@@ -59,6 +65,7 @@ doctrine:
         naming_strategy: doctrine.orm.naming_strategy.underscore
         auto_mapping: true
 
+<<<<<<< HEAD
 web_profiler:
     intercept_redirects: true
 
@@ -81,3 +88,12 @@ swiftmailer:
     host:       smtp.gmail.com
     username:   sioetudiant
     password:   0550002D
+=======
+# Swiftmailer Configuration
+swiftmailer:
+    transport: "%mailer_transport%"
+    host:      "%mailer_host%"
+    username:  "%mailer_user%"
+    password:  "%mailer_password%"
+    spool:     { type: memory }
+>>>>>>> 3bd5578b812db39455a5bce5d5f8144f910f17e2
