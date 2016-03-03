@@ -1,0 +1,3 @@
+sio_gsb_homepage:
+    path:     /index
+    defaults: { _controller: SioGsbBundle:Default:index }
